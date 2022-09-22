@@ -128,6 +128,11 @@ fclose($fp);
 ---
 ---
 
+## Monitor Processes w/o Root
+[pspy](https://github.com/DominicBreuker/pspy) is a command line tool designed to snoop on processes without need for root permissions. Copy file from attack machine to compromised machine `chmod +x pspy64` to make executable and then execute with `./pspy64`
+
+---
+---
 ## Hashcat
 - --force = ignore warnings
 - -m = mode
